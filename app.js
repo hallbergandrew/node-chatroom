@@ -52,9 +52,10 @@ app.post("/message", function(request, response) {
 
 //New user connects = newUser
 io.on("connection", function(socket) {
+
   socket.on("newUser", function(data) {
     participants.push({id: data.id, name: data.name});
-    io.sockets.emit("newConection", {participants: participants});
+    io.sockets.emit("newConnection", {participants: participants});
   });
 
 //New name = nameCahnge
@@ -74,4 +75,5 @@ io.on("connection", function(socket) {
 http.listen(app.get("port"), app.get("ipaddr"), function() {
   console.log("Server up and running. Go to http://" + app.get("ipaddr") + ":" + app.get("port"));
 });
+
 

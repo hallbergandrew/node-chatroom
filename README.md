@@ -11,8 +11,8 @@ to run:
 * Open your browser using localhost:8080  in the address bar.
 
 
-Open multiple browers and chat!
+Open multiple browsers and chat!
 
-FUTURE:
+Future work:
 
-* use on multiple comupters
+* use on multiple computers across the internet!

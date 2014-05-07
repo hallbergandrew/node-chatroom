@@ -4,3 +4,15 @@
 
 * Also used Jade and Underscore
 
+to run:
+
+* $ npm install
+* $ node app.js
+* Open your browser using localhost:8080  in the address bar.
+
+
+Open multiple browers and chat!
+
+FUTURE:
+
+* use on multiple comupters
